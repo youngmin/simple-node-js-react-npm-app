@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'cd frontend' 
                 sh 'npm install' 
-                sh 'npm run build'' 
+                sh 'npm run build'
             }
         }
     }
